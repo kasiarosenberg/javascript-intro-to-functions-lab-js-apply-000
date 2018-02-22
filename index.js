@@ -17,14 +17,10 @@ function describe(string) {
 function sayHiToGrandma(string) {
   if(string.toLowerCase === string {
     return "I can\'t hear you!";
-  } else {
+  } else if(string.toUpperCase() === string) {
     return "YES INDEED!";
+  } else {
+    return "I love you, too."
   }
 }
 
-
-
-  it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
-    expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
-  })
-})
